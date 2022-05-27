@@ -1,3 +1,3 @@
 # note-C++
 ## note-C++
-`$ npm install 
+`$ npm install`
