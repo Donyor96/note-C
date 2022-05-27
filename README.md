@@ -1,13 +1,15 @@
 # note-C++
 ## note-C++
+###FlowChart
+                
+```flow
+st=>start: Login
+op=>operation: Login operation
+cond=>condition: Successful Yes or No?
+e=>end: To admin
 
-```c++
-  #include <iostream>
-using namespace std;
-
-// main() is where program execution begins.
-int main() {
-   cout << "Hello World"; // prints Hello World
-   return 0;
-}
+st->op->cond
+cond(yes)->e
+cond(no)->op
 ```
+                    
